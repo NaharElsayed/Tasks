@@ -1,19 +1,18 @@
 //
 //  Users.swift
-//  TableView2Video7
+//  JsonProject
 //
-//  Created by Nahar Elsayed on 11/10/2023.
+//  Created by Nahar Elsayed on 15/10/2023.
 //
 
 import Foundation
 class Users {
-    var name :String
-    var age : String
-    var email : String
-  
-    init(name: String, age: String, email: String) {
-        self.name = name
-        self.age = age
-        self.email = email
+    var firstName : String
+    var lastName : String
+    var gender : String
+    init(firstName: String, lastName: String, gender: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.gender = gender
     }
 }
